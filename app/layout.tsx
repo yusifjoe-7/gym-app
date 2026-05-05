@@ -41,7 +41,13 @@ export default function RootLayout({
       lang="en"
       className={cn("h-full", "antialiased", geistSans.variable, geistMono.variable, "font-sans", inter.variable)}
     suppressHydrationWarning
+    title="workout"
+    
     >
+      <head>
+        <link rel="icon" type="image/svg+xml" href="/icon-192.png" />
+        <title>workout app</title>
+      </head>
       <body className="min-h-full flex flex-col">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <ExerciseRankingProvider>

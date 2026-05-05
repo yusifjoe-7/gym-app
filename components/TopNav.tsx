@@ -11,7 +11,7 @@ function TopNav() {
   return (
     <nav className="fixed top-0 left-0 right-0 bg-background border-t border-border h-16 hidden sm:flex items-center justify-between px-10 text-foreground shadow-sm" >
       <h1 className="font-heading font-bold cursor-pointer "><Link href="/">
-      un known
+      <span className="text-primary">GYM</span> tracker
       </Link></h1>
       <div className="flex items-center space-x-6 font-sans">
         <Link href="/">Home</Link>
